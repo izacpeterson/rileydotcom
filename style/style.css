@@ -5,7 +5,7 @@
 }
 body {
   text-align: center;
-  padding-top: 200px;
+  /* padding-top: 200px; */
   background-color: #111;
   color: white;
   font-family: "Jost", sans-serif;
@@ -20,4 +20,15 @@ h2 {
 }
 svg {
   width: 400px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 120px;
+  background-color: #1a1a1a;
+}
+nav a {
+  color: white;
+  margin: 0 20px;
 }
