@@ -6,8 +6,8 @@
 body {
   text-align: center;
   /* padding-top: 200px; */
-  background-color: #111;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: "Jost", sans-serif;
 }
 h1 {
@@ -26,9 +26,60 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 120px;
-  background-color: #1a1a1a;
+  background-color: #e4e4e4;
+  box-shadow: 0 0 10px rgb(7, 7, 7);
 }
 nav a {
-  color: white;
+  color: rgb(26, 26, 26);
   margin: 0 20px;
+}
+#landing {
+  background-image: linear-gradient(to left, rgb(39, 39, 39), rgba(173, 173, 173, 0.682)), url("https://st.depositphotos.com/1177973/1892/i/950/depositphotos_18926081-stock-photo-young-pastor-with-wooden-cross.jpg");
+  background-repeat: no-repeat;
+  /* filter: grayscale(100%); */
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+button {
+  border: none;
+  background-color: rgb(205, 150, 48);
+  padding: 10px 20px;
+  color: white;
+}
+input {
+  border: none;
+  padding: 10px 20px;
+}
+#signUpBanner {
+  background-color: grey;
+  padding: 10px;
+}
+#mainInfo {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+#infoImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#infoImage img {
+  width: 50%;
+}
+#infoText {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#infoText p {
+  width: 50%;
+  margin: 10px;
+  text-align: left;
 }
