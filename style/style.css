@@ -19,7 +19,8 @@ h2 {
   font-weight: 200;
 }
 svg {
-  width: 400px;
+  width: 100px;
+  fill: rgb(205, 150, 48);
 }
 header {
   display: flex;
@@ -49,6 +50,12 @@ button {
   background-color: rgb(205, 150, 48);
   padding: 10px 20px;
   color: white;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 2px;
+}
+button:hover {
+  border-radius: 0px 15px 0px 15px;
 }
 input {
   border: none;
